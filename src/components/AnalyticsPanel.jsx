@@ -1,5 +1,5 @@
 import React from 'react';
-import {  AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { MousePointerClick, Calendar } from 'lucide-react';
 
 export default function AnalyticsPanel({ analyticsError, analyticsData, setAnalyticsData }) {
